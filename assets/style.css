@@ -9,20 +9,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 1%;
+    background-color: maroon;
+    margin: 0;
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
-  
+    min-width: 400px;
+    font-size: 150%; 
 } 
 
 nav a {
     color: #fff;
     font-weight: bold;
-
 }
 
 nav a:hover {
@@ -30,6 +31,32 @@ nav a:hover {
 }
 
 h1 {
-    color: #fff
-    
+ font-size: 300%;
+ color: #fff;
+ background-color: crimson;   ;
+}
+
+p {
+    color: #fff;
+}
+
+article p {
+    border: black;
+}
+
+div {
+    display: flex;
+    border-width: 0;
+}
+
+.flex-container {
+    background: peachpuff;
+    border: 4px royalblue;
+    flex: 1 1 0;
+    height: 100px;
+}
+
+.About-Me {
+    color: darkgreen;
+    contain: layout;
 }
